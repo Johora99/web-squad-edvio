@@ -24,7 +24,7 @@ const Banner = () => {
         exit={{ opacity: 0 }}
         transition={{ duration: 1 }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-30 flex justify-center items-center px-4 py-6 text-center">
+        <div className="absolute inset-0 bg-[#000000c2] flex justify-center items-center px-4 py-6 text-center">
           <div className="text-white max-w-3xl mx-auto space-y-4">
             <motion.h2
               className="text-3xl sm:text-4xl md:text-5xl font-semibold"
