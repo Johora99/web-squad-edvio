@@ -7,7 +7,7 @@
     "description": "This course introduces the fundamentals of Natural Language Processing (NLP), covering text processing, sentiment analysis, and language modeling. Learn how to build NLP applications using Python and popular libraries like NLTK and SpaCy.",
     "level": "Beginner",
     "price": 0,
-    "isPremium": true,
+    "isPremium": false,
     "Purchase_order": "12",
     "duration": "5 Days",
     "instructor": {
@@ -347,7 +347,7 @@
     "description": "This course introduces the fundamentals of data analytics, covering data cleaning, visualization, and analysis. Learn how to use tools like Python, Pandas, and Matplotlib to analyze and interpret data effectively.",
     "level": "Beginner",
     "price": 0,
-    "isPremium": true,
+    "isPremium": false,
     "Purchase_order": "15",
     "duration": "5 Days",
     "instructor": {
