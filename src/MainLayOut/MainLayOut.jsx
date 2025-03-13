@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom'
 
 export default function MainLayOut() {
   return (
-    <div>
+    <div className='inter'>
       <Outlet></Outlet>
     </div>
   )
