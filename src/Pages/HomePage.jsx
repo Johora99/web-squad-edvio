@@ -1,12 +1,12 @@
-import React from 'react'
-import Banner from './Banner/Banner'
+import React from "react";
+import Banner from "./Banner/Banner";
+import Pro from "./PremiumCourse/Pro";
 
 export default function HomePage() {
   return (
     <>
-    <div>Edivo HomePage</div>
-    <Banner></Banner>
+      <Banner></Banner>
+      <Pro />
     </>
-    
-  )
+  );
 }
