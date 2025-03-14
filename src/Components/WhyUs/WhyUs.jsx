@@ -8,7 +8,7 @@ const WhyUs = () => {
             <div>
                 <h2>Why Choose EdVio?</h2>
             </div>
-            <div>
+            <div className='mt-16'>
                 {features.map((feature, index) => (
                     <Card key={index} feature={feature} />
                 ))}
