@@ -7,7 +7,7 @@
       "Auto-adjusts difficulty level",
       "Recommends extra lessons"
     ],
-    "img": "https://example.com/images/ai-learning-paths.jpg",
+    "img": "../src/assets/WhyUs/1.json",
     "color": "#FF6B6B"
   },
   {
