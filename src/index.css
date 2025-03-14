@@ -9,7 +9,7 @@
   --color-PrimaryBlack: rgb(0, 0, 0);
 }
 
-<<<<<<< HEAD
+
 .tealGreen{
   color: var(--color-TealGreen);
 }
@@ -65,8 +65,6 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
-=======
 .inter{
   font-family: "Inter", sans-serif;
 }
->>>>>>> upstream/development

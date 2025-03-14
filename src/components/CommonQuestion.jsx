@@ -34,12 +34,12 @@ const CommonQuestion = () => {
                 {questions.slice(0, visibleQuestions).map((item, index) => (
                     <li
                         key={index}
-                        className="bg-gray-100 p-3 rounded-md shadow-md mb-2 cursor-pointer hover:bg-gray-200"
+                        className="bg-gray-100 p-3 rounded-md shadow-md mb-2 cursor-pointer hover:bg-gray-200 dark:hover:bg-gray-300"
                         onClick={() => handleQuestionClick(index)}
                     >
-                        <div className="font-medium">{item.question}</div>
+                        <div className="font-medium dark:text-gray-800">{item.question}</div>
                         {selectedQuestionIndex === index && (
-                            <div className="mt-2 text-gray-600">{item.answer}</div>
+                            <div className="mt-2 text-gray-600 dark:text-gray-700">{item.answer}</div>
                         )}
                     </li>
                 ))}

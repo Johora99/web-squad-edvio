@@ -46,7 +46,7 @@ const Reviews = () => {
                   className="w-12 h-12 rounded-full object-cover"
                 />
                 <div>
-                  <h3 className="font-semibold text-lg">{review.name}</h3>
+                  <h3 className="font-semibold dark:text-gray-800 text-lg">{review.name}</h3>
                   <p className="text-yellow-400 mb-2">{"⭐".repeat(review.stars)}</p>
                   <p className="text-sm text-gray-500 flex gap-1 items-center">
                     <IoLocation />
