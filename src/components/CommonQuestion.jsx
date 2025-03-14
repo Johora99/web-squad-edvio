@@ -47,7 +47,7 @@ const CommonQuestion = () => {
             <div className="mt-4">
                 <button
                     onClick={toggleVisibility}
-                    className="bg-tealGreen py-2 px-4 rounded-md"
+                    className="bg-tealGreen py-3 px-4 text-lg font-semibold rounded-md"
                 >
                     {isShowingAll ? 'Show Less Questions' : 'Show All Questions'}
                 </button>
