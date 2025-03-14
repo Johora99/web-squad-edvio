@@ -35,6 +35,10 @@ const Reviews = () => {
           delay: 3000,
           disableOnInteraction: false,
         }}
+        onSwiper={(swiper) => {
+          swiper.el.addEventListener("mouseenter", () => swiper.autoplay.stop());
+          swiper.el.addEventListener("mouseleave", () => swiper.autoplay.start());
+        }}
         breakpoints={{
           640: { slidesPerView: 2 },
           1024: { slidesPerView: 3 },
