@@ -1,18 +1,27 @@
 import React from 'react';
+import { motion, useScroll, useTransform } from 'framer-motion';
 
-const Card = ({ feature }) => {
+const Card = ({ feature, i }) => {
+    const { scrollYProgress } = useScroll();
+    
+    // Scale effect: The first card starts full size, then shrinks as we scroll
+    const scale = useTransform(scrollYProgress, [0, 0.3 * (i + 1)], [1, 0.8]);
+
     return (
-        <div className="h-lvh flex flex-wrap justify-center sticky top-32">
-            <div 
-                className="card relative flex flex-col md:flex-row items-center  rounded-xl shadow-lg w-[1000px] h-[500px] overflow-hidden"
-                style={{ backgroundColor: feature.color }}
+        <motion.div
+            className="flex justify-center sticky top-32 px-4"
+            style={{ scale }}
+        >
+            <div
+                className="relative flex flex-col md:flex-row items-center rounded-xl shadow-xl w-full max-w-[1000px] h-auto md:h-[500px] overflow-hidden"
+                style={{ backgroundColor: feature.color, top: `${i * 25}px` }}
             >
                 {/* Image Section */}
-                <div className="bg-base-100 w-1/2 h-full flex items-center justify-center">
+                <div className="w-full md:w-1/2 h-[250px] md:h-full flex items-center justify-center bg-gray-100">
                     <img 
                         src={feature.img} 
                         alt={feature.title} 
-                        className="w-full h-full"
+                        className="w-full h-full object-cover"
                     />
                 </div>
 
@@ -23,13 +32,13 @@ const Card = ({ feature }) => {
 
                     {/* Benefits List */}
                     <ul className="list-disc pl-5 space-y-2">
-                        {feature.benefits.map((benefit, index) => (
-                            <li key={index} className="text-md">{benefit}</li>
+                        {feature.benefits.map((benefit, i) => (
+                            <li key={i} className="text-md">{benefit}</li>
                         ))}
                     </ul>
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 };
 
