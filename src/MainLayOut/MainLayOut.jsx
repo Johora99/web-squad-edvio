@@ -4,7 +4,7 @@ import Footer from '../Shared/Footer'
 
 export default function MainLayOut() {
   return (
-    <div>
+    <div className='inter'>
       <Outlet></Outlet>
       <Footer></Footer>
     </div>
