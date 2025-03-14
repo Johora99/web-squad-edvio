@@ -44,7 +44,7 @@ const ContactUs = () => {
     };
 
     return (
-        <div className='my-10 mt-32'>
+        <div className='my-10 mt-32 w-11/12 mx-auto'>
             <SectionTitle
                 heading="Contact Us"
                 subHeading="Feel free to ask us any questions, we’re here to help"
@@ -100,7 +100,7 @@ const ContactUs = () => {
 
                             <button
                                 type="submit"
-                                className="px-4 py-2 bg-tealGreen rounded-lg hover:bg-LightTeal focus:outline-none focus:ring-2 focus:bg-LightTeal dark:bg-white dark:hover:bg-gray-50"
+                                className="px-6 py-2 bg-tealGreen text-lg font-semibold rounded-lg hover:bg-LightTeal focus:outline-none focus:ring-2 focus:bg-LightTeal dark:bg-white dark:hover:bg-gray-50"
                             >
                                 Send
                             </button>
