@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Navigation, Pagination } from "swiper/modules";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import SectionTitle from "../Shared/SectionTitle";
 import "../../src/index.css"; 
 import { IoLocation } from "react-icons/io5";
@@ -26,11 +26,15 @@ const Reviews = () => {
 
       {/* Swiper Slider */}
       <Swiper
-        modules={[Navigation, Pagination]}
+        modules={[Navigation, Pagination, Autoplay]}
         navigation
         slidesPerView={1}
         spaceBetween={20}
         centeredSlides={true}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
         breakpoints={{
           640: { slidesPerView: 2 },
           1024: { slidesPerView: 3 },
@@ -38,7 +42,7 @@ const Reviews = () => {
       >
         {reviews.map((review, index) => (
           <SwiperSlide key={index}>
-            <div className="p-4 border rounded-lg shadow-md bg-white w-80 h-60 flex flex-col justify-between">
+            <div className="p-4 border border-tealGreen rounded-lg shadow-md bg-white w-80 h-60 flex flex-col justify-between">
               <div className="flex items-center gap-4 mb-2">
                 <img
                   src={review.image}
