@@ -7,7 +7,7 @@ export default function CourseCard({course}){
   return (
     <div className="border-[1px] border-TealGreen ">
     <div className="h-52 overflow-hidden">
-        <img src={course_image} alt="" className="w-full hover:scale-125 transition-all duration-300"/>
+        <img src={course_image} alt="" className="w-full h-52 hover:scale-125 transition-all duration-300"/>
     </div>
       <div className="p-5">
       <div className="flex items-center justify-between">
