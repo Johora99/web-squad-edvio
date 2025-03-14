@@ -106,8 +106,7 @@ const ContactUs = () => {
                             </button>
                         </form>
                     </div>
-
-                    {/* Contact Information */}
+                    {/* use lottie */}
                     <div>
                        <Lottie animationData={email}></Lottie>
                     </div>
