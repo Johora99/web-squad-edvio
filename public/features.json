@@ -1,63 +1,68 @@
 [
-    {
-      "title": "AI-Powered Personalized Learning Paths",
-      "description": "AI tracks students' progress and adapts the learning path based on their strengths, weaknesses, and performance.",
-      "benefits": [
-        "Custom learning experience",
-        "Auto-adjusts difficulty level",
-        "Recommends extra lessons"
-      ],
-      "img": "https://example.com/images/ai-learning-paths.jpg"
-    },
-    {
-      "title": "Real-Time AI Tutor",
-      "description": "An AI-powered chatbot provides instant answers to student queries, explains concepts, and offers study tips.",
-      "benefits": [
-        "24/7 AI-powered assistance",
-        "Instant doubt resolution",
-        "Step-by-step explanations"
-      ],
-      "img": "https://example.com/images/ai-tutor.jpg"
-    },
-    {
-      "title": "Performance-Based Adaptive Testing",
-      "description": "Quizzes dynamically adjust their difficulty based on student responses, offering personalized assessments.",
-      "benefits": [
-        "AI-generated quizzes",
-        "Instant feedback with explanations",
-        "Focus on weak areas"
-      ],
-      "img": "https://example.com/images/adaptive-testing.jpg"
-    },
-    {
-      "title": "Offline Learning with Auto-Sync",
-      "description": "Students can download lessons for offline access, and AI syncs progress when they go online.",
-      "benefits": [
-        "Accessible in low-internet areas",
-        "Tracks offline learning",
-        "Seamless sync with progress tracking"
-      ],
-      "img": "https://example.com/images/offline-learning.jpg"
-    },
-    {
-      "title": "AI-Powered Study Planner",
-      "description": "AI generates personalized study schedules based on students' goals, progress, and upcoming deadlines.",
-      "benefits": [
-        "Custom study plans",
-        "Tracks deadlines and goals",
-        "Adapts to student progress"
-      ],
-      "img": "https://example.com/images/study-planner.jpg"
-    },
-    {
-      "title": "AI-Powered Career Recommendations",
-      "description": "AI analyzes student progress and suggests career paths, job-ready certifications, and resume enhancements.",
-      "benefits": [
-        "Personalized career guidance",
-        "AI-powered job recommendations",
-        "Auto-generated project-based resumes"
-      ],
-      "img": "https://example.com/images/career-recommendations.jpg"
-    }
-  ]
-
+  {
+    "title": "AI-Powered Personalized Learning Paths",
+    "description": "AI tracks students' progress and adapts the learning path based on their strengths, weaknesses, and performance.",
+    "benefits": [
+      "Custom learning experience",
+      "Auto-adjusts difficulty level",
+      "Recommends extra lessons"
+    ],
+    "img": "https://example.com/images/ai-learning-paths.jpg",
+    "color": "#FF6B6B"
+  },
+  {
+    "title": "Real-Time AI Tutor",
+    "description": "An AI-powered chatbot provides instant answers to student queries, explains concepts, and offers study tips.",
+    "benefits": [
+      "24/7 AI-powered assistance",
+      "Instant doubt resolution",
+      "Step-by-step explanations"
+    ],
+    "img": "https://example.com/images/ai-tutor.jpg",
+    "color": "#4ECDC4"
+  },
+  {
+    "title": "Performance-Based Adaptive Testing",
+    "description": "Quizzes dynamically adjust their difficulty based on student responses, offering personalized assessments.",
+    "benefits": [
+      "AI-generated quizzes",
+      "Instant feedback with explanations",
+      "Focus on weak areas"
+    ],
+    "img": "https://example.com/images/adaptive-testing.jpg",
+    "color": "#556270"
+  },
+  {
+    "title": "Offline Learning with Auto-Sync",
+    "description": "Students can download lessons for offline access, and AI syncs progress when they go online.",
+    "benefits": [
+      "Accessible in low-internet areas",
+      "Tracks offline learning",
+      "Seamless sync with progress tracking"
+    ],
+    "img": "https://example.com/images/offline-learning.jpg",
+    "color": "#FFD166"
+  },
+  {
+    "title": "AI-Powered Study Planner",
+    "description": "AI generates personalized study schedules based on students' goals, progress, and upcoming deadlines.",
+    "benefits": [
+      "Custom study plans",
+      "Tracks deadlines and goals",
+      "Adapts to student progress"
+    ],
+    "img": "https://example.com/images/study-planner.jpg",
+    "color": "#6A0572"
+  },
+  {
+    "title": "AI-Powered Career Recommendations",
+    "description": "AI analyzes student progress and suggests career paths, job-ready certifications, and resume enhancements.",
+    "benefits": [
+      "Personalized career guidance",
+      "AI-powered job recommendations",
+      "Auto-generated project-based resumes"
+    ],
+    "img": "https://example.com/images/career-recommendations.jpg",
+    "color": "#2E86AB"
+  }
+]
