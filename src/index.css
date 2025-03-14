@@ -65,6 +65,11 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+/* TealGreen border color */
+.border-tealGreen {
+  border-color: var(--color-TealGreen);
+}
+
 .inter{
   font-family: "Inter", sans-serif;
 }
