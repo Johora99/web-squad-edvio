@@ -2,7 +2,7 @@ import React from 'react';
 
 const Card = ({ feature }) => {
     return (
-        <div className="h-lvh flex flex-wrap justify-center sticky top-16">
+        <div className="h-lvh flex flex-wrap justify-center sticky top-32">
             <div 
                 className="card relative flex flex-col md:flex-row items-center  rounded-xl shadow-lg w-[1000px] h-[500px] overflow-hidden"
                 style={{ backgroundColor: feature.color }}
