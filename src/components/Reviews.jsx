@@ -5,7 +5,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import SectionTitle from "../Shared/SectionTitle";
-import "../../src/index.css"; 
+import "../../src/index.css";
 import { IoLocation } from "react-icons/io5";
 
 const Reviews = () => {
@@ -18,7 +18,7 @@ const Reviews = () => {
   }, []);
 
   return (
-    <div className="max-w-6xl mx-auto p-4">
+    <div className=" p-4">
       <SectionTitle
         heading="Reviews"
         subHeading="Feedback from our AI-Powered Course Management System users"
@@ -36,8 +36,12 @@ const Reviews = () => {
           disableOnInteraction: false,
         }}
         onSwiper={(swiper) => {
-          swiper.el.addEventListener("mouseenter", () => swiper.autoplay.stop());
-          swiper.el.addEventListener("mouseleave", () => swiper.autoplay.start());
+          swiper.el.addEventListener("mouseenter", () =>
+            swiper.autoplay.stop()
+          );
+          swiper.el.addEventListener("mouseleave", () =>
+            swiper.autoplay.start()
+          );
         }}
         breakpoints={{
           640: { slidesPerView: 2 },
@@ -54,8 +58,12 @@ const Reviews = () => {
                   className="w-12 h-12 rounded-full object-cover"
                 />
                 <div>
-                  <h3 className="font-semibold dark:text-gray-800 text-lg">{review.name}</h3>
-                  <p className="text-yellow-400 mb-2">{"⭐".repeat(review.stars)}</p>
+                  <h3 className="font-semibold dark:text-gray-800 text-lg">
+                    {review.name}
+                  </h3>
+                  <p className="text-yellow-400 mb-2">
+                    {"⭐".repeat(review.stars)}
+                  </p>
                   <p className="text-sm text-gray-500 flex gap-1 items-center">
                     <IoLocation />
                     {review.location}

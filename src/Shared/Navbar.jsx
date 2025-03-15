@@ -8,9 +8,9 @@ import { Link, NavLink } from "react-router-dom";
 // Navbar menu items
 const menuItems = [
   { name: "Home", link: "/", subMenu: ["Option 1", "Option 2"] },
-  { name: "Shop", link: "/shop", subMenu: ["Category 1", "Category 2"] },
-  { name: "Pages", link: "/pages", subMenu: ["Page 1", "Page 2"] },
-  { name: "Blog", link: "/blog", subMenu: ["Blog 1", "Blog 2"] },
+  { name: "Courses", link: "/courses", subMenu: ["Category 1", "Category 2"] },
+  { name: "Feture", link: "/pages", subMenu: ["Page 1", "Page 2"] },
+  { name: "Blogs", link: "/blog", subMenu: ["Blog 1", "Blog 2"] },
   { name: "About Us", link: "/about", subMenu: [] },
   { name: "Contact Us", link: "/contact", subMenu: [] },
 ];

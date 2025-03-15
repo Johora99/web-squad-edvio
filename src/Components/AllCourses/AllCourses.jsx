@@ -17,7 +17,7 @@ export default function AllCourses() {
   console.log(courses);
 
   return (
-    <div className="container w-11/12 mx-auto">
+    <div className=" mx-auto">
       <div className="flex flex-col lg:flex-row justify-between gap-10">
         <div className="lg:w-[40%]">
           <h2 className="text-4xl font-semibold">Our All Courses</h2>
