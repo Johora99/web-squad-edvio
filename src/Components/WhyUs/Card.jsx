@@ -1,20 +1,21 @@
 import React from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 
-const Card = ({ feature, i }) => {
+const Card = ({ feature, index }) => {
     const { scrollYProgress } = useScroll();
     
     // Scale effect: The first card starts full size, then shrinks as we scroll
-    const scale = useTransform(scrollYProgress, [0, 0.3 * (i + 1)], [1, 0.8]);
+    const scale = useTransform(scrollYProgress, [0, 0.3 * (index + 1)], [1, 0.7]);
 
     return (
         <motion.div
-            className="flex justify-center sticky top-32 px-4"
+            className="flex justify-center sticky top-16 px-4"
             style={{ scale }}
         >
             <div
                 className="relative flex flex-col md:flex-row items-center rounded-xl shadow-xl w-full max-w-[1000px] h-auto md:h-[500px] overflow-hidden"
-                style={{ backgroundColor: feature.color, top: `${i * 25}px` }}
+                style={{ backgroundColor: feature.color, top: `calc( ${index} * 25px)`}
+            }
             >
                 {/* Image Section */}
                 <div className="w-full md:w-1/2 h-[250px] md:h-full flex items-center justify-center bg-gray-100">

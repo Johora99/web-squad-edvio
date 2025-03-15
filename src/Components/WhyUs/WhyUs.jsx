@@ -4,13 +4,13 @@ import Card from './Card';
 
 const WhyUs = () => {
     return (
-        <div className=' p-4 mx-auto py-32 bg-LightTeal mb-32'>
-            <div className=' flex flex-col items-center'>
-                <h2 className='text-start text-8xl text-zinc-200 font-extrabold'>Why Choose <span>EdVio?</span></h2>
+        <div className=' p-4 mx-auto pt-32 pb-64 bg-LightTeal '>
+            <div className=' flex flex-col items-center mb-10'>
+                <h2 className='text-start text-8xl text-gray-200 font-extrabold'>Why Choose <span>EdVio?</span></h2>
             </div>
-            <div className='mt-10'>
+            <div className=''>
                 {features.map((feature, index) => (
-                    <Card key={index} i={index} feature={feature} />
+                    <Card key={index} index={index} feature={feature} />
                 ))}
             </div>
         </div>
