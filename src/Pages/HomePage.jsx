@@ -4,6 +4,7 @@ import CommonQuestion from '../components/CommonQuestion'
 import ContactUs from '../components/ContactUs'
 import Reviews from '../components/Reviews'
 import AllCourses from '../Components/AllCourses/AllCourses'
+import WhyUs from '../Components/WhyUs/WhyUs'
 
 
 export default function HomePage() {
@@ -14,6 +15,7 @@ export default function HomePage() {
       <AllCourses></AllCourses>
     </section>
     <CommonQuestion></CommonQuestion>
+    <WhyUs></WhyUs>
     <Reviews></Reviews>
     <ContactUs></ContactUs>
     </>
