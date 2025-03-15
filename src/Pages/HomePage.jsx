@@ -11,7 +11,7 @@ export default function HomePage() {
     <>
       <Banner></Banner>
 
-      <div className="w-11/12 mx-auto">
+      <div className="container w-11/12 mx-auto">
         <section className="my-10 lg:my-20">
           <AllCourses></AllCourses>
         </section>
