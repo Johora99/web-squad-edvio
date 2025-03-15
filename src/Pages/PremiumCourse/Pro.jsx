@@ -17,7 +17,7 @@ export default function Pro() {
   }, []);
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="   py-8">
       <SectionTitle
         subHeading={
           "Enhance your skills with our premium course! Get expert guidance, practical experience, and step ahead in your journey to success."
