@@ -1,4 +1,7 @@
 # Edvio AI Task Management Website
+
+![EdVio Banner](https://i.ibb.co/rGpnk1Wd/Screenshot-2025-06-11-032407.png)
+
 Edvio is a modern AI-powered task management platform designed for students and instructors. Built with the MERN stack (MongoDB, Express.js, React.js, Node.js) and Firebase for authentication, Edvio enables seamless course purchasing, scheduling, and communication through an integrated AI chatbot.
 
 
